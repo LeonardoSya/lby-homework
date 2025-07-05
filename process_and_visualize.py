@@ -42,7 +42,7 @@ def main():
     # --- 2. Clean and Format Data ---
 
     # Create a 'date' column for proper time series plotting
-    merged_df['date'] = pd.to_datetime(merged_df['year'].astype(str) + '-' + merged_df['month'].astype(str) + '-01')
+    merged_df['date'] = pd.to_datetime(merged_df['year'].astype(int).astype(str) + '-' + merged_df['month'].astype(int).astype(str) + '-01')
     
     # Sort the dataframe by date
     merged_df = merged_df.sort_values('date').reset_index(drop=True)

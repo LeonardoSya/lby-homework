@@ -1,0 +1,11 @@
+Vegetation Type,Trend,p-value,Sen's Slope,Significant (p<0.05)
+Deciduous Broadleaf Forest,increasing,0.0000,0.003048,Yes
+Mixed Forest,increasing,0.0001,0.003338,Yes
+Closed Shrublands,increasing,0.0001,0.003288,Yes
+Woody Savannas,increasing,0.0000,0.003818,Yes
+Savannas,increasing,0.0000,0.004061,Yes
+Grasslands,increasing,0.0000,0.004198,Yes
+Permanent Wetlands,increasing,0.0000,0.004723,Yes
+Croplands,increasing,0.0015,0.003053,Yes
+Urban and Built-up,increasing,0.0000,0.004672,Yes
+Water,increasing,0.0000,0.004961,Yes
